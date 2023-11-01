@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./css/login.css" />
+
+</head>
+
+<body>
+  <section class="main-container">
+    <section id="header">
+      <h2 id="head">Login</h2>
+      <img src="./other/pngwing.com.png">
+      <p id="error" style="display: none">Invalid Credentials !!!</p>
+    </section>
+    <section>
+      <form id="form">
+        <input type="text" placeholder="UserName" id="username" required/>
+        <input type="text" placeholder="Password" id="password" required />
+        <div>
+          <button type="submit" class="btn">Login</button>
+          
+        </div>
+      </form>
+    </section>
+  </section>
+
+  <script src="./js/credentials.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+
+</html>
